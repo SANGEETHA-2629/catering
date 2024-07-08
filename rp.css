@@ -1,0 +1,159 @@
+* {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: rgb(229, 231, 231);
+    font-family: cursive;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo a {
+    font-size: 30px;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 4px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    color: #444;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: serif;
+    margin-right: 60px;
+}
+
+li a:hover {
+    color: red;
+}
+
+
+.img1 {
+    width: 100%;
+}
+
+.img2 {
+    width: 500px;
+    height: 600px;
+    border-radius: 30px;
+}
+
+
+#about {
+    display: flex;
+    height: 80vh;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 60px;
+}
+
+.sec-content {
+    text-align: left;
+}
+
+.cat {
+    margin-left: 250px;
+    font-family: serif;
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+
+.cat1 {
+    margin-left: 260px;
+    font-family: serif;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.sec-para {
+    line-height: 30px;
+}
+
+#article {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.img3 {
+    width: 530px;
+    height: 600px;
+    border-radius: 40px;
+}
+
+.art-para1 {
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-family: serif;
+    font-weight: bolder;
+}
+
+.art-para2 {
+    text-align: left;
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.span1 {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+#foot {
+    padding: 80px;
+}
+.foot-para{
+    font-size: 45px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+.foot-para1{
+    font-size: 18px;
+}
+.foot-para2{
+    font-size: 25px;
+    color: darkblue;
+    font-weight: bold;
+}
+.foot-para3{
+    font-size: 18px;
+}
+input{
+    border: none;
+    width: 100%
+}
+.main{
+    background-image:url("rp image.png.png");
+    height: 100vh;
+}
+.con{
+    color:darkslategray;
+    text-align: center;
+    padding: 10rem;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+}
+.lion{
+    font-size: 14px;
+    font-family: serif;
+    
+}
