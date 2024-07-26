@@ -149,11 +149,18 @@ input{
     text-align: center;
     padding: 10rem;
     font-size: 30px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:G eorgia, 'Times New Roman', Times, serif;
     letter-spacing: 3px;
 }
 .lion{
     font-size: 14px;
     font-family: serif;
     
+}
+button{
+    color: white;
+    background-color: rgb(51, 51, 220);
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
 }

@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Catering</title>
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
     </script>
     <script type="text/javascript">
         (function () {
-            emailjs.init("jHFu8RGnEKY_xc4QW");
+            emailjs.init("RIMJm6XhoDCeDClyE");
         })();
 
         function sendemail() {
@@ -31,7 +31,7 @@
                 time: time,
                 message: message,
             };
-            1
+            
             emailjs.send('service_wny8n5g', 'template_xbrphh4', templateParams)
                 .then(function (response) {
                     console.log('SUCCESS!', response.status, response.text);
@@ -49,6 +49,7 @@
         <div class="navdiv">
             <div class="logo"><a href="#">Chinese Restaurant</a></div>
             <ul>
+                <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#article">Menu</a></li>
                 <li><a href="#foot">Contact</a></li>
