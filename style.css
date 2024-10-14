@@ -120,44 +120,52 @@ li a:hover {
 #foot {
     padding: 80px;
 }
-.foot-para{
+
+.foot-para {
     font-size: 45px;
     letter-spacing: 3px;
     font-weight: bolder;
 }
-.foot-para1{
+
+.foot-para1 {
     font-size: 18px;
 }
-.foot-para2{
+
+.foot-para2 {
     font-size: 25px;
     color: darkblue;
     font-weight: bold;
 }
-.foot-para3{
+
+.foot-para3 {
     font-size: 18px;
 }
-input{
+
+input {
     border: none;
     width: 100%
 }
-.main{
-    background-image:url("rp image.png.png");
+
+.main {
+    background-image: url("rp image.png.png");
     height: 100vh;
 }
-.con{
-    color:darkslategray;
+
+.con {
+    color: darkslategray;
     text-align: center;
     padding: 10rem;
     font-size: 30px;
-    font-family:G eorgia, 'Times New Roman', Times, serif;
+    font-family: G eorgia, 'Times New Roman', Times, serif;
     letter-spacing: 3px;
 }
-.lion{
+
+.lion {
     font-size: 14px;
     font-family: serif;
-    
 }
-button{
+
+button {
     color: white;
     background-color: rgb(51, 51, 220);
     border-radius: 10px;
